@@ -2,10 +2,6 @@ use std::fs;
 use mailparse::{parse_mail, MailHeaderMap};
 use regex::Regex;
 
-//TO DO
-// - Add SPF, DMARC & DKIM checker functionality
-// SPF is the easiest and first one to implement
-
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     // Read the .eml file bytes
     let eml_data = fs::read("examples/example1.eml")?;
