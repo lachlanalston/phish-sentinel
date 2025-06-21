@@ -1,6 +1,6 @@
 # Phish Sentinel
 
-** Phish Sentinel** is a backend-powered email analysis tool that detects phishing attempts using file or header input. The core logic is written in **Rust** for performance and safety. This is the early stage of development focusing on building reliable analysis utilities.
+**Phish Sentinel** is a backend-powered email analysis tool that detects phishing attempts using file or header input. The core logic is written in **Rust** for performance and safety. This is the early stage of development focusing on building reliable analysis utilities.
 
 ---
 
