@@ -1,0 +1,61 @@
+Return-Path: <sender@example.com>
+Received: from EXCHANGESERVER.example.com (10.0.0.1) by mail.example.com with Microsoft SMTP Server (TLS) id 15.1.225.42; Sat, 21 Jun 2025 14:00:01 +0000
+Received: from EXCHANGESERVER.example.com (10.0.0.1) by EXCHANGESERVER.example.com with Microsoft SMTP Server id 15.1.225.42; Sat, 21 Jun 2025 14:00:00 +0000
+From: "Sender Name" <sender@example.com>
+To: "Recipient Name" <recipient@example.com>
+Subject: Test Email from Exchange Server
+Date: Sat, 21 Jun 2025 14:00:00 +0000
+Message-ID: <ABC12345DEFG@example.com>
+Thread-Topic: Test Email from Exchange Server
+Thread-Index: Adwdf8vQ2M8LfH2GK2H8+6Q==
+Content-Class: urn:content-classes:message
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+    boundary="----=_NextPart_000_001A_01D88A5F.0A2B3C4D"
+
+----=_NextPart_000_001A_01D88A5F.0A2B3C4D
+Content-Type: multipart/alternative;
+    boundary="----=_NextPart_001_001B_01D88A5F.0A2B3C4D"
+
+----=_NextPart_001_001B_01D88A5F.0A2B3C4D
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+This is a test email sent from Exchange Server.
+It contains both plain text and HTML parts, and an attachment.
+
+Best regards,
+Your Test Program
+
+----=_NextPart_001_001B_01D88A5F.0A2B3C4D
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+  <body>
+    <p>Hello,</p>
+    <p>This is a <b>test email</b> sent from Exchange Server.<br>
+       It contains both plain text and HTML parts, and an attachment.</p>
+    <p>Best regards,<br>Your Test Program</p>
+    <img src="cid:image001.png@01D88A5F.0A2B3C4D" alt="Inline Image"/>
+  </body>
+</html>
+
+----=_NextPart_001_001B_01D88A5F.0A2B3C4D--
+
+----=_NextPart_000_001A_01D88A5F.0A2B3C4D
+Content-Type: image/png;
+    name="image001.png"
+Content-Transfer-Encoding: base64
+Content-Disposition: inline;
+    filename="image001.png"
+Content-ID: <image001.png@01D88A5F.0A2B3C4D>
+
+iVBORw0KGgoAAAANSUhEUgAAAAUA
+AAAFCAYAAACNbyblAAAAHElEQVQI12P4
+//8/w38GIAXDIBKE0DHxgljNBAAO9TXL
+0Y4OHwAAAABJRU5ErkJggg==
+
+----=_NextPart_000_001A_01D88A5F.0A2B3C4D--
