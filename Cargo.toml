@@ -5,3 +5,4 @@ edition = "2024"
 
 [dependencies]
 mailparse = "0.13"
+regex = "1"
